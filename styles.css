@@ -1,0 +1,20 @@
+/* #cielopurpura{
+    width: 2000px;
+    height: auto;
+}
+ */
+/* body{
+    background-image: url("./assets/img/adivina-bola-cristal.avif");
+    margin: 0;
+    height: 100vh;
+} */
+/*buscar img con medidas de 1900*/
+
+#numeroinicial{
+display: block;
+}
+
+#botones{
+display: none;
+}
+

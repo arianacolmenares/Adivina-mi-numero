@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Adivina El Número</title>
+</head>
+
+<body class="bg-dark text-light text-center mt-4" >
+  
+    <main>
+            <h1 id="mensajesalida" class="text-center"> Piensa un número del 1 al 100 y cuando estés listo da click en iniciar</h1>
+            
+            <p id="reiniciarjuego"> </p>
+
+            <div id="numeroinicial" class="container-fluid col">
+              
+
+                <div class="input-group mb-3">
+
+                    <button class="btn btn-primary d-grid gap-2 col-2 mx-auto" type="button" id="botoninicial">Iniciar</button>
+
+                </div>
+
+               <img src="./assets/img/bola-cristal.png" alt="vidente con una bola de cristal" width="400" height="400">
+            </div>
+
+
+            <div id="botones" class="btn-group" role="group" aria-label="Basic example">
+                <button id="boton1" type="button" class="btn btn-primary">Mi número es menor</button>
+                <button id="boton2" type="button" class="btn btn-primary">Sí, ese es mi número</button>
+                <button id="boton3" type="button" class="btn btn-primary">Mi número es mayor</button>
+            </div>
+     
+    </main>
+
+
+    <script src="./javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
